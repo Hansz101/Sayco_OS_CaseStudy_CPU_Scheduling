@@ -1,0 +1,27 @@
+Instructions
+
+Step 1:
+Run The Program
+
+Step 2 - Choosing An Algorithm:
+1. FCFS
+2. SJF
+3. SRT
+4. Round Robin
+5. Priority
+6. Priority + RR
+
+Step 3 - Entering Process Data:
+1. Enter the number of processes (e.g., 3) and press Enter.
+2. For each process (P1, P2, …), enter:
+• Arrival Time — when the process enters the ready queue (0 or later)
+• Burst Time — how many time units of CPU it needs
+• Priority — only asked for algorithms 5 and 6. Lower integer = higher priority (e.g., 1 beats 3).
+3. For Round Robin (4) and Priority+RR (6), you will also be asked for a Time Quantum — the maximum number of time units each process runs before yielding the CPU.
+
+Step 4 - Reading The Output:
+→ After entering all data, the program displays a Gantt chart and a metrics table.
+
+Step 5 = Running Another Algorithm:
+→ After results are shown, the main menu reappears automatically. You can test a different algorithm with the same or different inputs without restarting the program.
+• Type 7 and press Enter to exit the program cleanly.
